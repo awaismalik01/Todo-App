@@ -79,7 +79,8 @@ header {
   padding: 12px;
   border-radius: 11px;
 }
-.todohero_section div:last-child {
+
+.circleProgress {
   background-color: #88ab33;
   width: 150px;
   height: 150px;
@@ -159,6 +160,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .todo_items_left {
   background-color: transparent;
   border: none;
@@ -166,15 +168,13 @@ header {
   gap: 12px;
   font-size: 16px;
 }
+
 .todo_items_right {
   gap: 4px;
 }
+
 .todo_items_right button {
   background-color: transparent;
   color: #fff;
   border: none;
-}
-
-.todo_items_right button svg {
-  fill: #c2b39a;
 }
